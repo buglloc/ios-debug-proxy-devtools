@@ -207,7 +207,7 @@ WebInspector.Main.prototype = {
             return;
         }
 
-        InspectorBackend.loadFromJSONIfNeeded("../protocol.json");
+        InspectorBackend.loadFromJSONIfNeeded("protocol.json");
 
         var onConnectionReady = this._doLoadedDone.bind(this);
 
